@@ -1,7 +1,11 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+.red {
+    color: red;
+}
 
-.red{
-  color: red;
+.img {
+    background-image: url(../images/works.jpg);
+    width: 500px;
 }

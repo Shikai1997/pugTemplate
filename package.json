@@ -1,39 +1,45 @@
 {
-  "name": "pugtemplate",
-  "version": "1.0.0",
-  "description": "使用webpack5編譯pug",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cross-env NODE_ENV=development webpack",
-    "deploy": "cross-env NODE_ENV=production webpack",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shikai1997/pugTemplate.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Shikai1997/pugTemplate/issues"
-  },
-  "homepage": "https://github.com/Shikai1997/pugTemplate#readme",
-  "devDependencies": {
-    "autoprefixer": "^10.3.7",
-    "cross-env": "^7.0.3",
-    "css-loader": "^6.3.0",
-    "html-webpack-plugin": "^5.3.2",
-    "mini-css-extract-plugin": "^2.4.1",
-    "node-sass": "^6.0.1",
-    "postcss": "^8.3.9",
-    "postcss-loader": "^6.1.1",
-    "postcss-preset-env": "^6.7.0",
-    "sass-loader": "^12.1.0",
-    "style-loader": "^3.3.0",
-    "tailwindcss": "^2.2.16",
-    "webpack": "^5.57.1",
-    "webpack-cli": "^4.9.0",
-    "webpack-dev-server": "^4.3.1"
-  }
+    "name": "pugtemplate",
+    "version": "1.0.0",
+    "description": "使用webpack5編譯pug",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "cross-env NODE_ENV=development webpack",
+        "deploy": "cross-env NODE_ENV=production webpack",
+        "dev": "cross-env NODE_ENV=development webpack-dev-server --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Shikai1997/pugTemplate.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Shikai1997/pugTemplate/issues"
+    },
+    "homepage": "https://github.com/Shikai1997/pugTemplate#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.3.7",
+        "cross-env": "^7.0.3",
+        "css-loader": "^6.3.0",
+        "file-loader": "^6.2.0",
+        "html-loader": "^2.1.2",
+        "html-webpack-plugin": "^5.3.2",
+        "image-webpack-loader": "^8.0.1",
+        "mini-css-extract-plugin": "^2.4.1",
+        "node-sass": "^6.0.1",
+        "postcss": "^8.3.9",
+        "postcss-loader": "^6.1.1",
+        "postcss-preset-env": "^6.7.0",
+        "sass-loader": "^12.1.0",
+        "style-loader": "^3.3.0",
+        "tailwindcss": "^1.9.0",
+        "webpack": "^5.57.1",
+        "webpack-cli": "^4.9.0",
+        "webpack-dev-server": "^4.3.1"
+    },
+    "dependencies": {
+        "pug-html-loader": "^1.1.5"
+    }
 }
